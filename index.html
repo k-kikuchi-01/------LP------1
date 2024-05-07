@@ -3,14 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kira-Kira Juku</title>
+    <meta property="og:title" content="入学説明会のお申し込み開始 | Kira-Kira Juku">
+    <meta property="og:description" content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。">
+    <meta property="og:image" content="images/メインビジュアル.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:site_name" content="Kira-Kira Juku">
 
     <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Poppins:ital,wght@0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Smart Tab -->
+    <link href="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/css/smart_tab_all.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    
 </head>
 <body>
-    
+        <!-- ヘッダー -->
+        <header class="header">
+            <h1 class="header-logo poppins bold">Kira-Kira Juku</h1>
+
+            <!-- ハンバーガーボタン -->
+            <button type="button" class="hamburger-button flex">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- ナビゲーション、ヘッダーメニュー -->
+            <nav class="hamburger-menu header-nav">
+                <ul class="hamburger-menu-list-group header-nav-list-group">
+                    <li><a href="#point"><i class="hamburger-icon bi bi-arrow-right-short"></i>選ばれる3つの理由</a></li>
+                    <li><a href="#course"><i class="hamburger-icon bi bi-arrow-right-short"></i>コース・目的</a></li>
+                    <li><a href="#price"><i class="hamburger-icon bi bi-arrow-right-short"></i>費用</a></li>
+                </ul>
+                <!--contact-->
+                <div class="header-conrtaxt flex">
+                    <a href="https://example.com/" class="button-contact button-header flex">入学説明会に申し込む</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- カバー -->
+            <div class="cover">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/mainVIsual_pc.jpg.jpg">
+                    <img src="images/mainVIsual_sp.jpg.jpg" alt="">
+                </picture>
+                <div class="cover-box">
+                    <div class="campaign-ranking-box">
+                        <img src="images/frame-left.png" alt="">
+                        <div class="campaign-text">
+                            <p class="campaign-ranking-title">難関大学の合格実績</p>
+                            <p class="campaign-ranking-number italic exbold"><span class="campaign-text-orange poppins">No.<span class="campaign-ranking-large">1</span></span></p>
+                        </div>
+                        <img src="images/frame-right.png" alt="">
+                    </div>
+                    <p class="cover-text-black">現役高校生・高卒生</p>
+                    <p class="cover-text-blue bold">入学説明会の<br>お申し込み開始</p>
+                </div>
+                <div class="button-list">
+                    <a href="https://example.com/" class="button-contact flex button-green">入学のお問い合わせ</a>
+                    <a href="https://example.com/" class="button-contact flex button-yellow">無料体験に申し込む</a>
+                    <a href="https://example.com/" class="button-contact flex button-blue">資料請求する</a>
+                </div>
+            </div>
+            <section id="point" class="point">
+                <div class="container">
+                    <h2 class="section-title bold flex">選ばれる<span class="point-text-pink bold poppins">3</span>つの理由</h2>
+                    <div class="point-box-left">
+                        <img src="images/pht_reason01.jpg.jpg" alt="">
+                        <div class="point-text-box">
+                            <div class="point-num poppins italic bold">Point<span class="point-num-num">1</span></div>
+                            <div class="point-title bold">実績のある講師陣だから安心</div>
+                            <div class="point-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>
+                        </div>
+                    </div>
+                    <div class="point-box-right">
+                        <img src="images/pht_reason02.jpg.jpg" alt="">
+                        <div class="point-text-box">
+                            <div class="point-num poppins italic bold">Point<span class="point-num-num">2</span></div>
+                            <div class="point-title bold">オンラインにも対応だから、早送り巻き戻し視聴できる。</div>
+                            <div class="point-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>
+                        </div>
+                    </div>
+                    <div class="point-box-left">
+                        <img src="images/pht_reason03.jpg.jpg" alt="">
+                        <div class="point-text-box">
+                            <div class="point-num poppins italic bold">Point<span class="point-num-num">3</span></div>
+                            <div class="point-title bold">徹底した個別指導で、弱点を残さずそれぞれに合わせた大学受験対策。</div>
+                            <div class="point-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <p class="contact-text"><span class="new-line">入学ご検討の方は、まずは入学説明会に</span>お越しください</p>
+                <a href="https://example.com/" class="button-contact flex">入学説明会に申し込む</a>
+            </section>
+            <section id="course" class="course">
+                <div class="container">
+                    <h2 class="section-title bold flex">コース・目的</h2>
+                    <div id="smarttab" class="tab">
+                        <!-- タブナビゲーション -->
+                        <ul class="nav">
+                            <li><a class="nav-link flex" href="#tab-1">学年別から選ぶ</a></li>
+                            <li><a class="nav-link flex" href="#tab-2">目的別から選ぶ</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <!-- タブ1 -->
+                            <div id="tab-1" class="tab-pane" role="tabpanel">
+                                <div class="tab-box">
+                                    <!-- 1個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource01.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>高卒生</p>
+                                    </div>
+                                    <!-- 2個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource02.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>高校3年生</p>
+                                    </div>
+                                </div>
+                                <div class="tab-box">
+                                    <!-- 3個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource03.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>高校2年生</p>
+                                    </div>
+                                    <!-- 4個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource04.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>高校1年生</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- タブ2 -->
+                            <div id="tab-2" class="tab-pane" role="tabpanel">
+                                <div class="tab-box">
+                                    <!-- 1個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource05.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>難関大学・医学部合格を目指す</p>
+                                    </div>
+                                    <!-- 2個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource06.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>名門私立大学合格を目指す</p>
+                                    </div>
+                                </div>
+                                <div class="tab-box">
+                                    <!-- 3個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource07.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>国公立大学合格を目指す</p>
+                                    </div>
+                                    <!-- 4個目 -->
+                                    <div class="course-tab-content-item">
+                                        <a href="#"><img src="images/pht_cource08.png.jpg" alt=""></a>
+                                        <p class="course-tab-content-title"><i class="bi bi-arrow-right-short"></i>海外の大学合格を目指す</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <p class="contact-text"><span class="new-line">入学ご検討の方は、まずは入学説明会に</span>お越しください</p>
+                <a href="https://example.com/" class="button-contact flex">入学説明会に申し込む</a>
+            </section>
+            <section id="price" class="price">
+                <div class="container">
+                    <h2 class="section-title flex">費用</h2>
+                    <table class="price-table">
+                        <tr>
+                          <th class="table-plan-first">年間講数</th>
+                          <th class="table-month-first">年間授業料（税込み）</th>
+                        </tr>
+                        <tr>
+                          <td class="price-table-course">5講</td>
+                          <td>
+                            <p class="price-table-price"><span class="poppins bold">24,500</span>円</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="price-table-course">10講</td>
+                          <td>
+                            <p class="price-table-price"><span class="poppins bold">49,000</span>円</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="price-table-course">11講</td>
+                          <td>
+                            <p class="price-table-price"><span class="poppins bold">53,900</span>円</p>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td class="price-table-course">12講</td>
+                            <td>
+                                <p class="price-table-price"><span class="poppins bold">58,800</span>円</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="price-table-course">22講</td>
+                            <td>
+                                <p class="price-table-price"><span class="poppins bold">107,800</span>円</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="price-table-course">24講</td>
+                            <td>
+                                <p class="price-table-price"><span class="poppins bold">117,600</span>円</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="contact">
+                <p class="contact-text"><span class="new-line">入学ご検討の方は、まずは入学説明会に</span>お越しください</p>
+                <a href="https://example.com/" class="button-contact flex">入学説明会に申し込む</a>
+            </section>
+            <section class="link">
+                <!-- よくあるご質問 -->
+                <div class="qa">
+                    <p class="qa-text bold">よくあるご質問</p>
+                    <a href="#"><img href="#" src="images/pht_qa.jpg.jpg" alt=""></a>
+                </div>
+                <!-- お近くの教室を探す -->
+                <div class="class">
+                    <p class="class-text bold">お近くの教室を探す</p>
+                    <a href="#"><img src="images/pht_classrooms.jpg.jpg" alt=""></a> 
+                </div>
+            </section>
+        </main>
+        <!-- フッター -->
+        <footer class="footer poppins">
+            copyright© 2023 Kira-Kira Juku All Rights Reserved.
+        </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Smart Tab -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/js/jquery.smartTab.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
