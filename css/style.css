@@ -37,6 +37,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Poppinsフォント */
 .poppins {
@@ -97,7 +99,7 @@ ul {
   margin-left: 1.0rem;
   margin-top: 0.5rem;
   font-size: 22px;
-  line-height: 0;
+  line-height: 1em;
   color: #005BAC;
 }
 @media (min-width: 768px) {
@@ -143,6 +145,7 @@ ul {
     display: flex;
     align-items: center;
     column-gap: 1.70rem;
+    width: 63.8%;
   }
 }
 /* アクティブ状態 */
@@ -204,7 +207,7 @@ ul {
 }
 @media (min-width: 768px) {
   .header-conrtaxt{
-    padding: 0px 167px 10px 0px;
+    padding: 0px 17.4% 10px 0px;
   }
   }
 .header-conrtaxt .button-contact{
@@ -311,10 +314,12 @@ ul {
 .cover{
   position: relative;
   margin-top: 4.4rem;
+  flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .cover{
     margin-top: 6.4rem;
+    flex-direction: row;
   }
 }
 @media (min-width: 768px) {
@@ -346,9 +351,9 @@ ul {
 }
 @media (min-width: 768px){
   .cover-box{
-    position: absolute;
     top: 5rem;
-    left: 21.3%;
+    left: 50%;
+    transform: translateX(-123%);
   }
 }
 .campaign-ranking-box{
@@ -356,7 +361,7 @@ ul {
   gap: 0px;
   padding: 16px 0px 0px 0px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-ranking-box{
     gap: 20px;
     padding: 16px 120px 0px 0px;
@@ -366,7 +371,7 @@ ul {
   width: 11.5%;
   padding-top: 3px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-ranking-box img {
     width: 19.5%;
     padding-top: 6px;
@@ -379,7 +384,7 @@ ul {
   justify-content: flex-start;
   padding: 2px 0px 0px 0px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-text{
     width: 80%;
   }
@@ -389,7 +394,7 @@ ul {
   font-size: 11px;
   font-weight: bold;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-ranking-title{
     font-size: 20px;
     font-weight: bold;
@@ -400,7 +405,7 @@ ul {
   line-height: 1;
   padding: 5px 0px 0px 0px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-ranking-number{
     padding: 12px 0px 0px 12px;
   }
@@ -409,7 +414,7 @@ ul {
   color: #F11F8D;
   font-size: 24px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-text-orange{
     color: #F11F8D;
     font-size: 54px;
@@ -418,7 +423,7 @@ ul {
 .campaign-ranking-large{
   font-size: 36px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .campaign-ranking-large{
     font-size: 74px;
   }
@@ -433,14 +438,13 @@ ul {
     align-items: center;
     padding: 25px 0px 0px 3px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .button-list{
     position: absolute;
     bottom: -2.2rem;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
-    margin-left: 21.2%;
   }
 }
 .cover-text-black{
@@ -448,7 +452,7 @@ ul {
   padding-top: 24px;
   line-height: 1em;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .cover-text-black{
     font-size: 33px;
     padding-top: 42px;
@@ -461,7 +465,7 @@ ul {
   line-height: 1.4em;
   padding-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .cover-text-blue{
     font-size: 60px;
     line-height: 1.4em;
