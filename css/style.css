@@ -7,7 +7,7 @@ body {
     line-height: 1.75;
     color: #333333 ;
   }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   body {
     font-size: 1.125rem;
   }
@@ -56,14 +56,14 @@ ul {
   font-weight: 800;
 }
 .section-title{
-  font-size: 28px;
+  font-size: 1.75rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .section-title{
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
-@media (max-width: 767.9px) {
+@media (max-width: 47.9937rem) {
   .new-line::after{
       content:"\A";
       white-space:pre;
@@ -81,14 +81,14 @@ ul {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
-  padding: 0px 0px 0px 0px;
+  padding: 0rem 0rem 0rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .header {
     top: 1rem;
     max-width: 94.8rem;
     margin: auto;
-    padding: 0px 11px 2px 19px;
+    padding: 0rem 0.6875rem 0.125rem 1.1875rem;
     height: 5rem;
   }
 }
@@ -96,17 +96,17 @@ ul {
 .header-logo {
   display: flex;
   align-items: center;
-  margin-left: 1.0rem;
+  margin-left: 1rem;
   margin-top: 0.5rem;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 1em;
   color: #005BAC;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .header-logo {
-    font-size: 32px;
-    padding: 0px 0px 6px 142px;
-    margin-top: 0px;
+    font-size: 2rem;
+    padding: 0rem 0rem 0.375rem 8.875rem;
+    margin-top: 0rem;
   }
 }
 /* ハンバーガーボタン */
@@ -117,35 +117,35 @@ ul {
   background-color: #005BAC;
   margin-right: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .hamburger-button {
     display: none;
   }
 }
 .hamburger-button i {
   line-height: 0;
-  font-size: 46px;
+  font-size: 2.875rem;
 }
 
 /* ハンバーガーメニュー、ヘッダーナビ
 ------------------------------------------ */
-@media (max-width: 767.9px) {
+@media (max-width: 47.9937rem) {
   .hamburger-menu {
     position: fixed;
     top: 4.4rem;
-    left: 0px;
-    right: 0px;
-    height: 331px;
+    left: 0rem;
+    right: 0rem;
+    height: 20.6875rem;
     background-color: #005BAC;
     opacity: 0;
     visibility: hidden;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .hamburger-menu {
     display: flex;
     align-items: center;
-    column-gap: 1.70rem;
+    column-gap: 1.7rem;
     width: 63.8%;
   }
 }
@@ -155,104 +155,104 @@ ul {
   opacity: 1;
 }
 /* ナビゲーション */
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .hamburger-menu-list-group {
     display: flex;
     flex-direction: column;
-    gap: 23px;
-    font-size: 18px;
-    padding: 25px 0px 32px 0px;
+    gap: 1.4375rem;
+    font-size: 1.125rem;
+    padding: 1.5625rem 0rem 2rem 0rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .hamburger-menu-list-group a {
     position: relative;
     display: flex;
     text-align: left;
     line-height: 1;
     color: #fff;
-    padding: 0px 0px 24px 25px;
-    margin-left: 20px;
-    border-bottom: #fff solid 1px;
+    padding: 0rem 0rem 1.5rem 1.5625rem;
+    margin-left: 1.25rem;
+    border-bottom: #fff solid 0.0625rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .header-nav-list-group {
     display: flex;
     align-items: center;
     column-gap: 1.81rem;
     height: 92%;
     line-height: 0.9;
-    font-size: 20px;
-    padding: 0px 22px 5px 0px;
+    font-size: 1.25rem;
+    padding: 0rem 1.375rem 0.3125rem 0rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .hamburger-icon {
     color: #fff;
     position: absolute;
-    font-size: 27px;
-    top: -6px;
-    left: -7px;
+    font-size: 1.6875rem;
+    top: -0.375rem;
+    left: -0.4375rem;
   }
   }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .hamburger-icon {
     visibility: hidden;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
 .header-conrtaxt{
   align-items: center;
 }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .header-conrtaxt{
-    padding: 0px 17.4% 10px 0px;
+    padding: 0rem 17.4% 0.625rem 0rem;
   }
   }
 .header-conrtaxt .button-contact{
-  width: 347px;
-  height: 66px;
-  border-radius: 50px;
-  font-size: 18px;
+  width: 21.6875rem;
+  height: 4.125rem;
+  border-radius: 3.125rem;
+  font-size: 1.125rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 .header-conrtaxt .button-contact{
-  width: 284px;
-  height: 60px;
-  border-radius: 50px;
-  font-size: 20px;
-  padding: 0px;
+  width: 17.75rem;
+  height: 3.75rem;
+  border-radius: 3.125rem;
+  font-size: 1.25rem;
+  padding: 0rem;
 }
 }
 
 /* 申し込みボタン
 ------------------------------------------ */
 .button-contact{
-  width: 304px;
-  height: 70px;
-  border-radius: 50px;
+  width: 19rem;
+  height: 4.375rem;
+  border-radius: 3.125rem;
   background-color: #005BAC;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .button-contact{
-    width: 362px;
-    height: 75px;
-    border-radius: 50px;
-    font-size: 24px;
-    padding: 0px 0px 0px 22px;
+    width: 22.625rem;
+    height: 4.6875rem;
+    border-radius: 3.125rem;
+    font-size: 1.5rem;
+    padding: 0rem 0rem 0rem 1.375rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .button-header{
     background-color: #fff;
     color: #005BAC;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .button-header{
     color: #fff;
     background-color: #005BAC;
@@ -261,52 +261,52 @@ ul {
 .button-green{
   background-color: #77CB33;
   color: #fff;
-  width: 250px;
-  height: 48px;
-  border-radius: 33px;
-  font-size: 16px;
+  width: 15.625rem;
+  height: 3rem;
+  border-radius: 2.0625rem;
+  font-size: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .button-green{
-    width: 340px;
-    height: 72px;
-    border-radius: 50px;
-    font-size: 24px;
-    padding: 0px;
+    width: 21.25rem;
+    height: 4.5rem;
+    border-radius: 3.125rem;
+    font-size: 1.5rem;
+    padding: 0rem;
   }
 }
 .button-yellow{
   background-color: #F6AA00;
   color: #fff;
-  width: 250px;
-  height: 48px;
-  border-radius: 33px;
-  font-size: 16px;
+  width: 15.625rem;
+  height: 3rem;
+  border-radius: 2.0625rem;
+  font-size: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .button-yellow{
-    width: 340px;
-    height: 72px;
-    border-radius: 50px;
-    font-size: 24px;
-    padding: 0px;
+    width: 21.25rem;
+    height: 4.5rem;
+    border-radius: 3.125rem;
+    font-size: 1.5rem;
+    padding: 0rem;
   }
 }
 .button-blue{
   background-color: #3AC8AD;
   color: #fff;
-  width: 250px;
-  height: 48px;
-  border-radius: 33px;
-  font-size: 16px;
+  width: 15.625rem;
+  height: 3rem;
+  border-radius: 2.0625rem;
+  font-size: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .button-blue{
-    width: 340px;
-    height: 72px;
-    border-radius: 50px;
-    font-size: 24px;
-    padding: 0px;
+    width: 21.25rem;
+    height: 4.5rem;
+    border-radius: 3.125rem;
+    font-size: 1.5rem;
+    padding: 0rem;
   }
 }
 
@@ -317,32 +317,32 @@ ul {
   margin-top: 4.4rem;
   flex-direction: column;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .cover{
     margin-top: 6.4rem;
     flex-direction: row;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .campaign{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 48px;
-    padding: 51px 4px 54px 0px;
+    gap: 3rem;
+    padding: 3.1875rem 0.25rem 3.375rem 0rem;
   }
 }
 .campaign-top-container{
   display: flex;
-  gap: 15px;
+  gap: 0.9375rem;
   justify-content: center;
-  padding: 0px 0px 12px 0px;
+  padding: 0rem 0rem 0.75rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .campaign-top-container{
     display: flex;
-    gap: 5px;
-    padding: 10px 0px 13px 6px;
+    gap: 0.3125rem;
+    padding: 0.625rem 0rem 0.8125rem 0.375rem;
   }
 }
 .cover-box {
@@ -350,7 +350,7 @@ ul {
   top: 1rem;
   left: 4.3%;
 }
-@media (min-width: 768px){
+@media (min-width: 48rem){
   .cover-box{
     top: 5rem;
     left: 50%;
@@ -359,23 +359,23 @@ ul {
 }
 .campaign-ranking-box{
   display: flex;
-  gap: 0px;
-  padding: 16px 0px 0px 0px;
+  gap: 0rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-ranking-box{
-    gap: 20px;
-    padding: 16px 120px 0px 0px;
+    gap: 1.25rem;
+    padding: 1rem 7.5rem 0rem 0rem;
   }
 }
 .campaign-ranking-box img {
   width: 11.5%;
-  padding-top: 3px;
+  padding-top: 0.1875rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-ranking-box img {
     width: 19.5%;
-    padding-top: 6px;
+    padding-top: 0.375rem;
   }
 }
 .campaign-text{
@@ -383,209 +383,209 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 2px 0px 0px 0px;
+  padding: 0.125rem 0rem 0rem 0rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-text{
     width: 80%;
   }
 }
 
 .campaign-ranking-title{
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: bold;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-ranking-title{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    padding: 12px 0px 0px 0px;
+    padding: 0.75rem 0rem 0rem 0rem;
   }
 }
 .campaign-ranking-number{
   line-height: 1;
-  padding: 5px 0px 0px 0px;
+  padding: 0.3125rem 0rem 0rem 0rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-ranking-number{
-    padding: 12px 0px 0px 12px;
+    padding: 0.75rem 0rem 0rem 0.75rem;
   }
 }
 .campaign-text-orange{
   color: #F11F8D;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-text-orange{
     color: #F11F8D;
-    font-size: 54px;
+    font-size: 3.375rem;
   }
 }
 .campaign-ranking-large{
-  font-size: 36px;
+  font-size: 2.25rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .campaign-ranking-large{
-    font-size: 74px;
+    font-size: 4.625rem;
   }
 }
 .campaign-ranking-small{
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .button-list{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.75rem;
     align-items: center;
-    padding: 25px 0px 0px 3px;
+    padding: 1.5625rem 0rem 0rem 0.1875rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .button-list{
     position: absolute;
     bottom: -2.2rem;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 2.5rem;
   }
 }
 .cover-text-black{
-  font-size: 14px;
-  padding-top: 24px;
+  font-size: 0.875rem;
+  padding-top: 1.5rem;
   line-height: 1em;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .cover-text-black{
-    font-size: 33px;
-    padding-top: 42px;
+    font-size: 2.0625rem;
+    padding-top: 2.625rem;
     line-height: 1em;
   }
 }
 .cover-text-blue{
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #005BAC;
   line-height: 1.4em;
-  padding-top: 4px;
+  padding-top: 0.25rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .cover-text-blue{
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 1.4em;
-    padding-top: 14px;
+    padding-top: 0.875rem;
   }
 }
 /* ポイント
 ------------------------------------------ */
 .point .container{
-  padding: 19px 13px 0px 15px;
+  padding: 1.1875rem 0.8125rem 0rem 0.9375rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point .container{
-    padding: 102px 19% 23px 19%;
+    padding: 6.375rem 19% 1.4375rem 19%;
 }
 }
 .point-text-pink{
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #F11F8D;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-text-pink{
-    font-size: 54px;
+    font-size: 3.375rem;
   }
 }
 .point-box-left{
   display: flex;
   flex-direction: column;
-  padding: 9px 0px 34px 0px;
+  padding: 0.5625rem 0rem 2.125rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-box-left{
     flex-direction: row;
-    padding: 21px 10px 48px 15px;
-    gap: 40px;
+    padding: 1.3125rem 0.625rem 3rem 0.9375rem;
+    gap: 2.5rem;
   }
 }
 .point-box-left img{
   width: auto;
-  border-radius: 13px;
+  border-radius: 0.8125rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-box-left img{
     width: auto;
-    border-radius: 17px;
+    border-radius: 1.0625rem;
   }
 }
 .point-box-right{
   display: flex;
   flex-direction: column;
-  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-box-right{
     flex-direction: row-reverse;
-    padding: 0px 16px 28px 16px;
-    gap: 40px;
+    padding: 0rem 1rem 1.75rem 1rem;
+    gap: 2.5rem;
   }
 }
 .point-box-right img{
   width: auto;
-  border-radius: 13px;
+  border-radius: 0.8125rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-box-right img{
     width: auto;
-    border-radius: 17px;
+    border-radius: 1.0625rem;
   }
 }
 .point-num{
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #F11F8D;
   line-height: 1em;
-  padding: 21px 0px 0px 0px;
+  padding: 1.3125rem 0rem 0rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-num{
-    font-size: 28px;
-    padding: 16px 0px 0px 0px;
+    font-size: 1.75rem;
+    padding: 1rem 0rem 0rem 0rem;
   }
 }
 .point-num-num{
-  font-size: 36px;
-  padding-left: 8px;
+  font-size: 2.25rem;
+  padding-left: 0.5rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-num-num{
-    font-size: 42px;
+    font-size: 2.625rem;
   }
 }
 .point-title{
-  font-size: 20px;
-  padding-top: 10px;
+  font-size: 1.25rem;
+  padding-top: 0.625rem;
   line-height: 1.4em;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-title{
-    font-size: 24px;
-    padding: 6px 0px 0px 0px;
+    font-size: 1.5rem;
+    padding: 0.375rem 0rem 0rem 0rem;
     line-height: 1.7em;
   }
 }
 .point-text{
-  padding: 10px 0px 0px 0px;
+  padding: 0.625rem 0rem 0rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-text{
-    font-size: 16px;
-    padding: 16px 0px 0px 0px;
+    font-size: 1rem;
+    padding: 1rem 0rem 0rem 0rem;
   }
 }
 .point-box-right .point-title{
   line-height: 1.4em;
-  padding: 11px 0px 0px 0px;
+  padding: 0.6875rem 0rem 0rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .point-box-right .point-title{
     line-height: 1.7em;
-padding: 7px 0px 0px 0px;
+padding: 0.4375rem 0rem 0rem 0rem;
   }
 }
 
@@ -596,84 +596,84 @@ padding: 7px 0px 0px 0px;
   flex-direction: column;
   align-items: center;
   background-color: #FFEDED;
-  padding: 0px 0px 38px 0px;
+  padding: 0rem 0rem 2.375rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .contact{
-    padding: 0px 0px 55px 0px;
+    padding: 0rem 0rem 3.4375rem 0rem;
   }
 }
 .contact-text{
-  padding: 39px 0px 10px 0px;
+  padding: 2.4375rem 0rem 0.625rem 0rem;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .contact-text{
-    font-size: 16px;
-    padding: 53px 0px 18px 0px;
+    font-size: 1rem;
+    padding: 3.3125rem 0rem 1.125rem 0rem;
   }
 }
 
 /* コース
 ------------------------------------------ */
 .course .container {
-  padding-top: 60px;
+  padding-top: 3.75rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course .container {
-    padding: 68px 19.8% 0px 19.8%;
+    padding: 4.25rem 19.8% 0rem 19.8%;
   }
 }
 .course .container .section-title {
-  padding: 0px 0px 0px 15px;
+  padding: 0rem 0rem 0rem 0.9375rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course .container .section-title {
-    padding: 0px;
+    padding: 0rem;
   }
 }
 
 /* タブ */
 .tab{
-  padding: 17px 0px 0px 0px;
+  padding: 1.0625rem 0rem 0rem 0rem;
 }
 .st-theme-basic{
   border: none;
 }
 .st>.tab-content>.tab-pane{
-  padding: 0px;
+  padding: 0rem;
 }
 /* タブナビゲーション */
 .tab.st > .nav {
-  column-gap: 16px;
+  column-gap: 1rem;
   flex-direction: row !important;
-  padding: 0px 13px 0px 15px;
+  padding: 0rem 0.8125rem 0rem 0.9375rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .tab.st > .nav {
-    column-gap: 35px;
+    column-gap: 2.1875rem;
     flex-direction: row !important;
-    padding: 11px 0px 0px 0px;
+    padding: 0.6875rem 0rem 0rem 0rem;
   }
 }
 .tab.st-theme-basic > .nav {
   box-shadow: none;
 }
 .tab.st-theme-basic > .nav .nav-link {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5625rem;
   line-height: 1;
   background-color: #F0F0F0;
   color: #707070;
-  border-radius: 8px 8px 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .tab.st-theme-basic > .nav .nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.7rem;
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 /* アクティブ状態 */
@@ -691,24 +691,24 @@ padding: 7px 0px 0px 0px;
   position: relative;
   overflow: hidden;
   height: auto;
-  padding: 15px 15px 40px;
+  padding: 0.9375rem 0.9375rem 2.5rem;
   background-color: #F2F9FF;
-  border-radius: 0px 0px 8px 8px;
-  margin-bottom: 62px;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  margin-bottom: 3.875rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .tab-content {
-    padding: 21px 24px 0px 22px;
-    margin-bottom: 73px;
+    padding: 1.3125rem 1.5rem 0rem 1.375rem;
+    margin-bottom: 4.5625rem;
   }
 }
 .course-tab-content-item{
-  padding: 13px 0px 20px;
+  padding: 0.8125rem 0rem 1.25rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course-tab-content-item{
     background-color: #F2F9FF;
-    padding: 0px 0px 0px 0px;
+    padding: 0rem 0rem 0rem 0rem;
     cursor: pointer;
     overflow: hidden;
   }
@@ -716,212 +716,212 @@ padding: 7px 0px 0px 0px;
 
 .course-tab-content-item img{
     width: 100%;
-    border-radius: 13px;
+    border-radius: 0.8125rem;
     width: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course-tab-content-item img{
     width: 100%;
     height: auto;
-    max-height: 329px;
+    max-height: 20.5625rem;
     transition: transform .1s ease;
 }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 .course-tab-content-item:hover img {
   transform: scale(1.2);
   opacity: 0.4;
 }
 }
 .course-tab-content-title{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   line-height: 1;
-  padding: 16px 0px 0px 23px;
+  padding: 1rem 0rem 0rem 1.4375rem;
   text-align: left;
   position: relative;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course-tab-content-title{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1;
-    padding: 21px 0px 0px 29px;
+    padding: 1.3125rem 0rem 0rem 1.8125rem;
   }
 }
 
 .course-tab-content-age{
-  font-size: 16px;
-  padding: 2px 0px 0px 0px;
+  font-size: 1rem;
+  padding: 0.125rem 0rem 0rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course-tab-content-age{
-    font-size: 18px;
-    padding: 0px 0px 0px 0px;
+    font-size: 1.125rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
 }
 .course-tab-content-title .bi-arrow-right-short{
   color: #005BAC;
   position: absolute;
-  top: 11px;
-  font-size: 27px;
-  left: -6px;
+  top: 0.6875rem;
+  font-size: 1.6875rem;
+  left: -0.375rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .course-tab-content-title .bi-arrow-right-short{
-    top: 11px;
-    font-size: 35px;
-    left: -9px;
+    top: 0.6875rem;
+    font-size: 2.1875rem;
+    left: -0.5625rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .tab-box{
     display: flex;
     flex-direction: row;
-    padding: 9px 0px 35px 10px;
-    gap: 31px;
+    padding: 0.5625rem 0rem 2.1875rem 0.625rem;
+    gap: 1.9375rem;
   }
 }
 
 /*料金
 ------------------------------------------ */
 .price .container{
-  padding: 56px 15px;
-  padding-bottom: 62px;
+  padding: 3.5rem 0.9375rem;
+  padding-bottom: 3.875rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price .container{
     padding: 4rem 34.4% 4.6rem 34.4%;
   }
 }
 .price .container .section-title{
-  padding: 5px 0px 15px 16px;
+  padding: 0.3125rem 0rem 0.9375rem 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price .container .section-title{
-    padding: 5px 0px 26px 0px;
+    padding: 0.3125rem 0rem 1.625rem 0rem;
   }
 }
 .price-title{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 11px;
+  margin-bottom: 0.6875rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-title{
-    font-size: 25px;
-    padding: 10px 0px 0px 164px;
-    margin-bottom: 8px;
+    font-size: 1.5625rem;
+    padding: 0.625rem 0rem 0rem 10.25rem;
+    margin-bottom: 0.5rem;
   }
 }
 .price-table {
-  border: 3px #dddddd solid;
+  border: 0.1875rem #dddddd solid;
   box-sizing: border-box;
   width: 100%;
   border-collapse:  collapse;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table{
-    max-width: 752px;
+    max-width: 47rem;
     margin-inline: auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-second{
-    max-width: 752px;
+    max-width: 47rem;
     margin-inline: auto;
   }
 }
 
 .table-plan-first{
   width: 33%;
-  padding: 18px 0px 16px 1px;
+  padding: 1.125rem 0rem 1rem 0.0625rem;
 }
 .price-table th,td{
-  border: 1px #dddddd solid;
+  border: 0.0625rem #dddddd solid;
   text-align: center;
 }
 .price-table th{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   background-color: #f5f5f5;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table th{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    padding: 21px 60px 19px 0px;
+    padding: 1.3125rem 3.75rem 1.1875rem 0rem;
     background-color: #f5f5f5;
   }
 }
 .price-table-text{
-  font-size: 14px;
-  padding: 13px 0px 4px 0px;
+  font-size: 0.875rem;
+  padding: 0.8125rem 0rem 0.25rem 0rem;
   line-height: 1;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-text{
-    font-size: 16px;
-    padding: 15px 9px 1px 0px;
+    font-size: 1rem;
+    padding: 0.9375rem 0.5625rem 0.0625rem 0rem;
     line-height: 1;
   }
 }
 .price-table-price{
-    font-size: 16px;
+    font-size: 1rem;
     color: #F23397;
     font-weight: bold;
     /* width: 100%; */
-    padding: 8px 6px 6px 0px;
+    padding: 0.5rem 0.375rem 0.375rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-price{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    padding: 13px 60px 8px 0px;
+    padding: 0.8125rem 3.75rem 0.5rem 0rem;
   }
 }
 .price-table-price span{
-  font-size: 28px;
+  font-size: 1.75rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-price span{
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 .price-table-course{
     width: 34%;
-    padding: 5px 0px 0px 3px;
+    padding: 0.3125rem 0rem 0rem 0.1875rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-course{
-    font-size: 18px;
-    padding: 6px 60px 0px 0px;
+    font-size: 1.125rem;
+    padding: 0.375rem 3.75rem 0rem 0rem;
   }
 }
 .price-text{
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-text{
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
-    padding: 1px 541px 0px 0px;
+    padding: 0.0625rem 33.8125rem 0rem 0rem;
   }
 }
 
 .table-first{
-  padding: 0px 0px 47px 0px;
+  padding: 0rem 0rem 2.9375rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .table-first{
-    padding: 0px 0px 22px 0px;
+    padding: 0rem 0rem 1.375rem 0rem;
   }
 }
 .table-plan-second{
   width: 38%;;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .table-plan-second{
     width: 33%;;
   }
@@ -929,80 +929,80 @@ padding: 7px 0px 0px 0px;
 
 
 .price-table-second {
-  border: 2px #dddddd solid;
+  border: 0.125rem #dddddd solid;
   box-sizing: border-box;
   width: 100%;
   border-collapse:  collapse;
 }
 .price-table-second th,td{
-  border: 1px #dddddd solid;
+  border: 0.0625rem #dddddd solid;
   text-align: center;
 }
 
 .price-table-second th{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
-  padding: 10px 4px 12px 0px;
+  padding: 0.625rem 0.25rem 0.75rem 0rem;
   background-color: #f5f5f5;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-second th{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    padding: 6px 12px 10px 0px;
+    padding: 0.375rem 0.75rem 0.625rem 0rem;
     background-color: #f5f5f5;
   }
 }
 .price-table-text-second{
-  font-size: 14px;
-  padding: 9px 7px 0px 3px;
+  font-size: 0.875rem;
+  padding: 0.5625rem 0.4375rem 0rem 0.1875rem;
   line-height: 1.7;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-text-second{
-    font-size: 16px;
-    padding: 14px 9px 2px 0px;
+    font-size: 1rem;
+    padding: 0.875rem 0.5625rem 0.125rem 0rem;
     line-height: 1;
   }
 }
 .price-table-price-second{
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #F23397;
   font-weight: bold;
-  padding: 0px 4px 0px 0px;
+  padding: 0rem 0.25rem 0rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-price-second{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    padding: 0px 11px 0px 0px;
+    padding: 0rem 0.6875rem 0rem 0rem;
   }
 }
 .price-table-price-second span{
-  font-size: 32px;
+  font-size: 2rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-price-second span{
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
 .price-table-course-second{
   color: #0079f2;
-  padding: 0px 0px 5px 0px;
+  padding: 0rem 0rem 0.3125rem 0rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .price-table-course-second{
-    font-size: 18px;
-    padding: 0px 9px 0px 0px;
+    font-size: 1.125rem;
+    padding: 0rem 0.5625rem 0rem 0rem;
   }
 }
 .price-text-second{
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 0.0625rem;
 }
 .table-month-first{
-  padding: 2px 11px 0px 0px;
+  padding: 0.125rem 0.6875rem 0rem 0rem;
 }
 
 /*よくあるご質問
@@ -1011,7 +1011,7 @@ padding: 7px 0px 0px 0px;
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .link{
     flex-direction: row;
   }
@@ -1024,14 +1024,14 @@ padding: 7px 0px 0px 0px;
 .qa img{
   width: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .qa img{
     height: auto;
-    max-height: 320px;
+    max-height: 20rem;
     transition: transform .1s ease;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 .qa:hover img {
   transform: scale(1.2);
   opacity: 0.4;
@@ -1042,13 +1042,13 @@ padding: 7px 0px 0px 0px;
   top: 4rem;
   left: 1rem;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .qa-text{
     top: 41%;
     left: 38.4%;
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 /*お近くの教室を探す
@@ -1061,14 +1061,14 @@ padding: 7px 0px 0px 0px;
 .class img{
   width: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .class img{
     height: auto;
-    max-height: 320px;
+    max-height: 20rem;
     transition: transform .1s ease;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 .class:hover img {
   transform: scale(1.2); 
   opacity: 0.4;
@@ -1079,13 +1079,13 @@ padding: 7px 0px 0px 0px;
   top: 4rem;
   left: 1rem;
   color: #fff;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .class-text{
     top: 41%;
     left: 35%;
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 /*フッター
@@ -1093,13 +1093,13 @@ padding: 7px 0px 0px 0px;
 .footer{
   background-color: #DDDDDD;
   color: #333333;
-  font-size: 12.4px;
-  padding: 32px 0px 30px 17px;
+  font-size: 0.775rem;
+  padding: 2rem 0rem 1.875rem 1.0625rem;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .footer{
-    font-size: 12.4px;
-    padding: 47px 15px 72px 17px;
+    font-size: 0.775rem;
+    padding: 2.9375rem 0.9375rem 4.5rem 1.0625rem;
   }
 }
