@@ -292,6 +292,24 @@ ul {
     padding: 0rem;
   }
 }
+.button-contact-add{
+  margin-top: 0.75rem;
+  width: 19rem;
+  height: 4.375rem;
+  border-radius: 3.125rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+@media (min-width: 48rem) {
+  .button-contact-add{
+    margin-top: 0rem;
+    width: 22.625rem;
+    height: 4.6875rem;
+    border-radius: 3.125rem;
+    font-size: 1.5rem;
+    padding: 0rem 0rem 0rem 1.375rem;
+  }
+}
 .button-blue{
   background-color: #3AC8AD;
   color: #fff;
@@ -612,6 +630,16 @@ padding: 0.4375rem 0rem 0rem 0rem;
     font-size: 1rem;
     padding: 3.3125rem 0rem 1.125rem 0rem;
   }
+}
+.contact-list{
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 48rem) {
+  .contact-list{
+    flex-direction: row;
+    gap: 6rem;
+}
 }
 
 /* コース
